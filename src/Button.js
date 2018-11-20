@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Btn = () =>
+const Btn = (props) =>
     (
         <button>
-            kliknij mnie
+            {props.label}
         </button>
     )
 

@@ -1,5 +1,6 @@
 import React from 'react'
-import Btn from './Button';
+
+import Btn from './Button'
 
 const names = ['ola', 'ala', 'zbyszek']
 
@@ -10,6 +11,9 @@ const App = (props) =>
       <ul>
           {namesList}
       </ul>
+      <Btn 
+      label="click me" 
+      />
     </div>
   )
 
