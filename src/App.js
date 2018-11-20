@@ -1,20 +1,21 @@
 import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
 
-import Btn from './Button'
+import Route1 from './Route1'
+import Route2 from './Route2'
+import Route3 from './Route3'
 
-const names = ['ola', 'ala', 'zbyszek']
 
-const namesList = names.map((name) => <li key={name.toString()}>{name}</li>)
 const App = (props) =>
   (
     <div>
-      <ul>
-        {namesList}
-      </ul>
-      <Btn
-        label = "kliknij mnie"
-        onClickHandler={() => alert('tekst')}
-      />
+      <BrowserRouter>
+        <div>
+          <Route1 />
+          <Route2 />
+          <Route3 />
+        </div>
+      </BrowserRouter>
     </div>
   )
 
