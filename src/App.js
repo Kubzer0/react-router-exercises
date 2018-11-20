@@ -13,6 +13,7 @@ const App = (props) =>
       </ul>
       <Btn
       label="click me"
+      alertText= "clicked"
       />
     </div>
   )
