@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Btn = (props) =>
+const Btn = ({label}) =>
     (
         <button onClick={()=> alert('alert')}>
-            {props.label}
+            {label}
         </button>
     )
 

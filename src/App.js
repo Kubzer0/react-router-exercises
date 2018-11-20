@@ -11,8 +11,8 @@ const App = (props) =>
       <ul>
           {namesList}
       </ul>
-      <Btn 
-      label="click me" 
+      <Btn
+      label="click me"
       />
     </div>
   )
